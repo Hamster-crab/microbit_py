@@ -22,17 +22,17 @@ while True:
         # もし振られたら
         if total_acceleration > SHAKE_THRESHOLD:
             while True:
-                for i in range(1,30):
+                for i in range(1,10):
                     print('Blue')
                     display.scroll('Blue')
                     music.play(music.POWER_DOWN)
-                for n in range(1,10):
+                for n in range(1,3):
                     print('Yellow')
                     display.scroll('Yellow')
 
                 music.play(music.POWER_UP)
                 print('Red')
-                for i in range(1,30):
+                for i in range(1,10):
                     print('Red')
                     display.scroll('Red')
                     music.play(music.POWER_UP)
