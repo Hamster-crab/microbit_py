@@ -1,7 +1,5 @@
 from microbit import *
 import music
-import random
-import time
 
 
 SHAKE_THRESHOLD = 2000
